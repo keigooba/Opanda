@@ -21,7 +21,7 @@ if($question5 == $answer5) {
 $total_points = $total_points4 + $points;
 
 if($total_points == 100) {
-  $result_text = "オオバンダも喜んでいます！";
+  $result_text = "オオバンダクンも喜んでいます！";
 } else if($total_points < 100 && $total_points >= 80) {
   $result_text = "ラスト１問！ワン!";
 } else if($total_points < 80 && $total_points >= 60) {
@@ -43,7 +43,7 @@ if($total_points == 100) {
 <div class="lastanswer_container">
   <img src="img/panda2.jpg">
   <div class="lastanswer_wrapper">
-    <h1 class="<?php if(!empty($hint)) echo 'err' ?>"><?php echo $result ?></h1> 
+    <h1 class="<?php if(!empty($hint)) echo 'err' ?>"><?php echo $result ?></h1>
     <h3><?php if (!empty($hint)) echo $hint ?></h3>
     <div class="result_container">
       <h1>結果発表<span><?php echo $total_points ?></span>点</h1>
@@ -51,8 +51,8 @@ if($total_points == 100) {
       <p><?php echo $result_text ?></p>
     </p>
       <form action="index.php" method="post">
-        <input type="submit" value="最初の問題へ" class="btn btn-mid"> 
-      </form> 
+        <input type="submit" value="最初の問題へ" class="btn btn-mid">
+      </form>
     </div>
   </div>
 </div>
