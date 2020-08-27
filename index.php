@@ -19,7 +19,7 @@ shuffle($question); //配列の中身をシャッフル
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>大庭工務店４択クイズ</title>
+    <title>Opanda</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="background_index">
@@ -39,7 +39,7 @@ shuffle($question); //配列の中身をシャッフル
     </div>
     <div class="opanda_image">
       <img src="img/panda3.jpg">
-    </div>    
+    </div>
   </div>
 </div>
 </body>
